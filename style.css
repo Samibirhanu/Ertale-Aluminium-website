@@ -19,6 +19,11 @@ body{
     color: rgb(37, 37, 37);
     padding-right: 30px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(243, 240, 240);
+}
+.top-section-text{
+    font-size: 14px;
 }
 
 /* Navigation style*/
