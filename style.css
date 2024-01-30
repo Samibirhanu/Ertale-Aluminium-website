@@ -56,3 +56,13 @@ nav{
 .contact-us{
     list-style-type: none;
 }
+.nav-links a:hover,
+.contact-us a:hover{
+    border-bottom: solid 2px #7F00FF;
+    border-radius: 2px;
+    color: #7F00FF;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid #7F00FF;
+  }
