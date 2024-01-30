@@ -25,6 +25,10 @@ body{
 .top-section-text{
     font-size: 14px;
 }
+.fa-phone,
+.fa-envelope{
+    color: #7F00FF;
+}
 
 /* Navigation style*/
 nav{
