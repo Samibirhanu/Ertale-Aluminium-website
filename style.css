@@ -7,6 +7,8 @@
 body{
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
 } 
 
 /* top-section style*/
@@ -25,8 +27,7 @@ nav{
 }
 .nav-links{
     display: flex;
-    gap: 50px;
-    
+    gap: 70px;
 }
 .logo{
     height: 70px;
