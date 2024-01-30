@@ -33,3 +33,12 @@ nav{
     height: 70px;
     width: 70px;
 }
+.nav-links a,
+.contact-us a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links,
+.contact-us{
+    list-style-type: none;
+}
