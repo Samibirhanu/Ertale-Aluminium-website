@@ -2,4 +2,7 @@
 *{
     font-family: 'Euclid Circular B', "San Francisco", sans-serif;                                            
 }
-                
+body{
+    display: flex;
+    flex-direction: column;
+}                
