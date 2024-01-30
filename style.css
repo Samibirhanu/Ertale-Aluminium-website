@@ -63,6 +63,7 @@ nav{
     color: #7F00FF;
 }
 
-.nav-links a.active {
+.nav-links a.active,
+.contact-us a.active {
     border-bottom: 2px solid #7F00FF;
   }
