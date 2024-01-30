@@ -25,3 +25,7 @@ nav{
 .nav-links{
     display: flex;
 }
+.logo{
+    height: 70px;
+    width: 70px;
+}
