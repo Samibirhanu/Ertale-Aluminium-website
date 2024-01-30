@@ -7,8 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 0;
 } 
 
 /* top-section style*/
@@ -18,6 +17,8 @@ body{
     gap: 17px;
     align-items: center;
     color: rgb(37, 37, 37);
+    padding-right: 30px;
+    padding-top: 10px;
 }
 
 /* Navigation style*/
@@ -32,6 +33,10 @@ nav{
 .logo{
     height: 70px;
     width: 70px;
+    padding-left: 30px;
+}
+.contact-us{
+    padding-right: 30px;
 }
 .nav-links a,
 .contact-us a{
