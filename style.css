@@ -1,8 +1,11 @@
+/* import custome font Euclid circular b */
 @import url('https://fonts.cdnfonts.com/css/euclid-circular-b');
 *{
     font-family: 'Euclid Circular B', "San Francisco", sans-serif;                                            
 }
+/* make the body part display flex and direction column*/
 body{
     display: flex;
     flex-direction: column;
-}                
+} 
+               
