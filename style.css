@@ -120,6 +120,7 @@ nav{
     display: flex;
     gap: 20px;
     justify-content: space-around;
+    margin-bottom: 20px;
   }
  .services2{
     display: flex;
