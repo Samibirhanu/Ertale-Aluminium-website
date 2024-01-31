@@ -132,3 +132,7 @@ nav{
     width: 300px;
     border-radius: 10px;
   }
+  .service-title{
+    font-size: 18px;
+    text-align: center;
+  }
