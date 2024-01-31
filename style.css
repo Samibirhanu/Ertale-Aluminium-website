@@ -76,11 +76,13 @@ nav{
     gap: 80px;
   }
   .title{
-    padding-top: 100px;
-    padding-left: 150px;
+    padding-top: 60px;
+    padding-left: 130px;
+    color: #7F00FF;
   }
   .moto-title{
-    font-size: 40px;
+    font-size: 45px;
+    text-transform: uppercase;
   }
   .moto-subtitle{
     font-weight: lighter;
