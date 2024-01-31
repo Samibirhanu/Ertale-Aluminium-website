@@ -69,3 +69,9 @@ nav{
 .contact-us a.active {
     border-bottom: 2px solid #7F00FF;
   }
+
+  /* Style hero-section*/
+  .container-hero-section{
+    display: flex;
+    
+  }
