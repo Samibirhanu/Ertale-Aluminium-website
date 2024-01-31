@@ -73,5 +73,9 @@ nav{
   /* Style hero-section*/
   .container-hero-section{
     display: flex;
-    
+
+  }
+  .front-image{
+    height: 500px;
+    width: 800px;
   }
