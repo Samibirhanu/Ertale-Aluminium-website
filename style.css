@@ -8,6 +8,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 } 
 
 /* top-section style*/
@@ -107,7 +108,26 @@ nav{
   }
 
   /* Service section style */
+  .service-section{
+    background-color: #F8F3FB;
+  }
   .service-heading{
     margin-top: 50px;
     margin-bottom: 50px;
+    padding-left: 50px;
+  }
+  .services{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+ .services2{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+ }
+  .service-image{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
   }
