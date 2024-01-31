@@ -97,6 +97,9 @@ nav{
     cursor: pointer;
     font-weight: 500;
   }
+  .get-in-touch-btn:hover{
+    background-color: #7200e4;
+  }
   .front-image{
     height: 542px;
     width: 503px;
