@@ -74,6 +74,7 @@ nav{
   .container-hero-section{
     display: flex;
     gap: 80px;
+    margin-bottom: 50px;
   }
   .title{
     padding-top: 60px;
@@ -107,6 +108,6 @@ nav{
 
   /* Service section style */
   .service-heading{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
