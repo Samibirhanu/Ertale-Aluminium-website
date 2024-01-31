@@ -73,7 +73,7 @@ nav{
   /* Style hero-section*/
   .container-hero-section{
     display: flex;
-    gap: 20px;
+    gap: 80px;
   }
   .title{
     padding-top: 100px;
