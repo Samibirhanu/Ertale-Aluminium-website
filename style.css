@@ -159,6 +159,7 @@ nav{
   /* testimony section style */
   .testimony-section{
     padding-left: 50px;
+    padding-right: 50px;
   }
   .subtitle{
     margin: 0px;
@@ -173,4 +174,8 @@ nav{
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+  .testimony-text{
+    font-style: italic;
+    font-size: 22px;
   }
