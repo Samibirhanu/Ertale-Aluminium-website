@@ -179,3 +179,15 @@ nav{
     font-style: italic;
     font-size: 22px;
   }
+
+  /* location section style */
+  .location{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 100px;
+    
+  }
+  .map{
+    margin-top: 50px;
+    border-radius: 20px;
+  }
