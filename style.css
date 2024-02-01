@@ -24,7 +24,7 @@ body{
     background-color: rgb(243, 240, 240);
 }
 .top-section-text{
-    font-size: 14px;
+    font-size: 12px;
 }
 .fa-phone,
 .fa-envelope{
@@ -155,3 +155,5 @@ nav{
   .learn-more:hover{
     background-color: #5d00bb;
   }
+  /* testimony section style */
+  
