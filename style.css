@@ -26,10 +26,7 @@ body{
 .top-section-text{
     font-size: 12px;
 }
-.fa-phone,
-.fa-envelope{
-    color: #7F00FF;
-}
+
 
 /* Navigation style*/
 nav{
@@ -204,7 +201,7 @@ nav{
   .info-box{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     margin-top: 10px;
   }
   footer {
@@ -215,14 +212,37 @@ nav{
     padding-left: 50px;
     color: rgb(80, 80, 80);
   }
-  .Navigation-links h3 a{
+  .Navigation-links span a{
     text-decoration: none;
     font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 5px;
     color: black;
   }
-  h3 a:hover{
+  span a:hover{
     color: #7F00FF;
+    border-bottom: 2px solid #7F00FF;
   }
   footer {
     border-top:1px solid rgb(221, 221, 221);
   }
+  .info-box i {
+    padding-right: 25px;
+  }
+  .contacts .fab{
+    padding-right:15px ;
+    font-size: 22px;
+    padding-bottom: 15px;
+  }
+  
+  .reach-us{
+    margin-bottom: 0;
+  }
+  .Navigation-links{
+    display: flex;
+    flex-direction: column;
+
+  }
+.footer-heading{
+  color: #7F00FF;
+}
