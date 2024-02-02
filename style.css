@@ -233,8 +233,12 @@ nav{
     padding-right:15px ;
     font-size: 22px;
     padding-bottom: 15px;
+    color: black;
   }
-  
+  .social-media a i:hover{
+    color: #7F00FF;
+  }
+
   .reach-us{
     margin-bottom: 0;
   }
