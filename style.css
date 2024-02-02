@@ -263,5 +263,20 @@ nav{
 /* about us main section*/
 .main-section{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
+}
+
+/* vision mission section */
+.mission-vision-section{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 120px;
+  background-color: #F8F3FB;
+  padding-top: 50px;
+}
+.mission-icon,
+.vision-icon{
+  height: 100px;
+  width: 100px;
 }
