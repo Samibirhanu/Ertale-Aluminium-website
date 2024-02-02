@@ -208,9 +208,21 @@ nav{
     margin-top: 10px;
   }
   footer {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    padding-top: 50px;
   }
   .copyright{
     padding-left: 50px;
     color: rgb(80, 80, 80);
+  }
+  .Navigation-links h3 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  h3 a:hover{
+    color: #7F00FF;
+  }
+  footer {
+    border-top:1px solid rgb(221, 221, 221);
   }
