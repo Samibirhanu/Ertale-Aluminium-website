@@ -280,6 +280,9 @@ nav{
   height: 100px;
   width: 100px;
 }
+.mission-vision-section p{
+  color: rgb(82, 82, 82);
+}
 
 /* value section */
 .value-section{
