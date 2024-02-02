@@ -260,3 +260,8 @@ nav{
   width: 1200px;
   border-radius: 8px;
 }
+/* about us main section*/
+.main-section{
+  text-align: center;
+  padding-top: 40px;
+}
