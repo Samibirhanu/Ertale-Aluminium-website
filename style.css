@@ -250,3 +250,13 @@ nav{
 .footer-heading{
   color: #7F00FF;
 }
+/* about us page style*/
+.aboutUs-heroSection{
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.about-us-image{
+  height: 300px;
+  width: 1200px;
+  border-radius: 8px;
+}
