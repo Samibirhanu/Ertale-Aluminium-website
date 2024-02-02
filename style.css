@@ -320,3 +320,18 @@ nav{
   background-color: #F8F3FB;
   padding-top: 100px;
 }
+
+/* contact us section style */
+.contact-info-section{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+.contact-info-section img{
+  height: 300px;
+  width: 600px;
+  border-radius: 30px;
+}
