@@ -305,4 +305,18 @@ nav{
   color: rgb(82, 82, 82);
 }
 
-/* secvices section style */
+/* Maintenance section style */
+.maintenace img{
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+}
+.maintenace{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+  background-color: #F8F3FB;
+  padding-top: 100px;
+}
