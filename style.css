@@ -11,6 +11,7 @@ body{
     margin: 0;
     width: 100%;
     height: 100vh;
+    overflow-x: hidden;
     
 } 
 
@@ -119,6 +120,19 @@ nav{
   .active{
     display: block;
   }
+  .front-image{
+    display: none;
+  }
+  .title{
+    padding: 30px;
+  }
+  .map{
+    height: 400px;
+    width: 400px;
+  }
+  .location{
+    padding-left: 38px;
+  }
 
   }
 
@@ -127,11 +141,13 @@ nav{
     display: flex;
     gap: 80px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   .title{
-    padding-top: 110px;
-    padding-left: 130px;
     color: black;
+    width: 403px;
+    height: 442px;
   }
   .moto-title{
     font-size: 45px;
@@ -154,8 +170,8 @@ nav{
     background-color: #5d00bb;
   }
   .front-image{
-    height: 542px;
-    width: 503px;
+    height: 442px;
+    width: 403px;
   }
 
   /* Service section style */
@@ -174,6 +190,7 @@ nav{
     justify-content: space-around;
     margin-bottom: 50px;
     text-align: center;
+    flex-wrap: wrap;
   }
   .service-section{
     padding-bottom: 100px;
@@ -183,6 +200,7 @@ nav{
     gap: 20px;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: wrap;
  }
   .service-image{
     height: 250px;
@@ -220,11 +238,20 @@ nav{
   .testimony-heading{
     margin-bottom: 0;
   }
+  .card-1,
+  .card-2,
+  .card-3{
+    height: 200px;
+    width: 250px;
+    padding-bottom: 30px;
+  }
   .testimony-cards{
     display: flex;
     gap: 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .testimony-text{
     font-style: italic;
@@ -251,6 +278,7 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
   }
   .info-box{
     display: flex;
