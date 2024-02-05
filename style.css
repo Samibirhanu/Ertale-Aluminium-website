@@ -293,6 +293,7 @@ nav{
   .copyright{
     padding-left: 50px;
     color: rgb(80, 80, 80);
+    padding-bottom: 15px;
   }
   .Navigation-links span a{
     text-decoration: none;
@@ -309,7 +310,7 @@ nav{
     border-top:1px solid rgb(221, 221, 221);
   }
   .info-box i {
-    padding-right: 25px;
+    padding-right: 6px;
   }
   .contacts .fab{
     padding-right:15px ;
