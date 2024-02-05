@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ertale Almunium Website</title>
         <script src="https://kit.fontawesome.com/5513d96760.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -18,14 +19,17 @@
         <!-- navigation starts here -->
         <nav>
             <a href="index.html"><img src="image/Ertale logo.jpg" alt="Logo" class="logo"></a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="aboutUs.html" class="active">About Us</a></li>
+            <ul class="nav-links " id="nav-list">
+                <li class="nav-list"><a href="index.html" >Home</a></li>
+                <li class="nav-list"><a href="service.html">Services</a></li>
+                <li class="nav-list"><a href="aboutUs.html">About Us</a></li>      
+                <li class="nav-list"><a href="contactUs.html">Contact Us</a></li>
             </ul>
-            <ul class="contact-us">
-                <li><a href="contactUs.html">Contact Us</a></li>
-            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
         </nav>
         <!--About us hero section starts here-->
         <div class="aboutUs-heroSection">
