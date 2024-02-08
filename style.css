@@ -128,7 +128,7 @@ nav{
   }
   .map{
     height: 400px;
-    width: 420px;
+    width: 400px;
   }
 
   }
@@ -222,6 +222,11 @@ nav{
   .learn-more:hover{
     background-color: #5d00bb;
   }
+  @media all and (max-width: 480px){
+    .service-heading{
+      padding-left: 20px;
+    }
+}
   /* testimony section style */
   .testimony-section{
     padding-left: 50px;
@@ -363,20 +368,53 @@ nav{
   width: 1200px;
   border-radius: 8px;
 }
+
+@media all and (max-width: 480px) {
+  .about-us-image{
+    height: 130px;
+    width: 440px;
+  }
+  .aboutUs-heroSection{
+    padding-left: 15px;
+    padding-top: 30px;
+    display: flex;
+    flex-shrink: 10;
+  }
+  .main-section h1{
+    text-align: center;
+  }
+  .main-section p{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-self: center;
+  }
+
+}
+
 /* about us main section*/
 .main-section{
-  text-align: center;
   padding-top: 60px;
+  height: 300px;
+  width: 300px;
+  align-self: center;
 }
 
 /* vision mission section */
 .mission-vision-section{
   display: flex;
-  justify-content: center;
-  gap: 200px;
+  justify-content: space-around;
   margin-top: 120px;
+  gap: 20px;
   background-color: #F8F3FB;
   padding-top: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.mission,
+.vision{
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 .mission-icon,
 .vision-icon{
@@ -393,12 +431,14 @@ nav{
   padding-top: 50px;
   padding-left: 50px;
   padding-bottom: 80px;
+  
 }
 .our-values{
   display: flex;
   gap: 20px;
   padding-right: 50px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .value-icon{
   height: 90px;
