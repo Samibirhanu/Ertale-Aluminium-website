@@ -94,6 +94,12 @@ nav{
       position:absolute;
       right: 20px;
       top: 20px;
+      padding:4px;
+    }
+    .menu:hover {
+      background-color: rgba(202, 202, 202, 0.4);
+      border-radius: 8px;
+      cursor: pointer;
     }
     .nav-links{
       display: block;
