@@ -240,19 +240,32 @@ nav{
   .card-3{
     height: 200px;
     width: 250px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
   }
   .testimony-cards{
     display: flex;
     gap: 20px;
     margin-top: 50px;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
     justify-content: space-around;
     flex-wrap: wrap;
   }
   .testimony-text{
     font-style: italic;
     font-size: 22px;
+  }
+  @media all and (max-width: 480px){
+    .testimony-section{
+      padding-left: 20px;
+    }
+    .card-1,
+    .card-2,
+    .card-3 {
+      padding-bottom: 120px;
+    }
+    .testimony-cards{
+      margin-bottom: 80px;
+    }
   }
 
   /* location section style */
