@@ -140,6 +140,9 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  h1{
+    color: #7F00FF;
+  }
   .title{
     color: black;
     width: 403px;
@@ -181,10 +184,13 @@ nav{
   .testimony-section{
     background-color: #fbf6ff;
   }
-  .service-heading{
+  .heading{
     margin-top: 50px;
     margin-bottom: 50px;
     padding-left: 50px;
+  }
+  .heading h1{
+    margin-bottom: 0;
   }
   .services{
     display: flex;
