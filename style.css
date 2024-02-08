@@ -76,10 +76,11 @@ nav{
     display: none;
   }
   .menu-line{
-    width: 20px;
+    width: 26px;
     height: 3px;
     background-color: black;
     margin-bottom: 4px;
+    border-radius: 3px;
   }
   @media all and (max-width: 480px) {
     .nav-links{
@@ -123,9 +124,7 @@ nav{
   .front-image{
     display: none;
   }
-  .title{
-    padding: 30px;
-  }
+  
   .map{
     height: 400px;
     width: 400px;
@@ -170,11 +169,17 @@ nav{
     height: 442px;
     width: 403px;
   }
-
+  @media all and (max-width: 480px){
+    .title{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
+  
   /* Service section style */
   .service-section,
   .testimony-section{
-    background-color: #F8F3FB;
+    background-color: #fbf6ff;
   }
   .service-heading{
     margin-top: 50px;
@@ -183,7 +188,7 @@ nav{
   }
   .services{
     display: flex;
-    gap: 20px;
+    gap: 80px;
     justify-content: space-around;
     margin-bottom: 50px;
     text-align: center;
@@ -194,7 +199,7 @@ nav{
   }
  .services2{
     display: flex;
-    gap: 20px;
+    gap: 80px;
     justify-content: space-around;
     text-align: center;
     flex-wrap: wrap;
@@ -206,7 +211,10 @@ nav{
   }
   .service-title{
     font-size: 18px;
+    font-weight: 500;
     text-align: center;
+    margin-top: 2px;
+    margin-bottom: 15px;
   }
   .learn-more{
     text-align: center;
@@ -218,13 +226,34 @@ nav{
     border-radius: 12px;
     cursor: pointer;
     font-weight: 500;
+    margin-bottom: 15px;
   }
   .learn-more:hover{
     background-color: #5d00bb;
   }
+  .service-card-1,
+  .service-card-2,
+  .service-card-3,
+  .service-card-4,
+  .service-card-5 {
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  
   @media all and (max-width: 480px){
     .service-heading{
       padding-left: 20px;
+      margin-top: 20px;
+      margin-bottom: 25px;
+    }
+    .service-heading h1{
+      margin-bottom: 4px;
+    }
+    .service-image{
+      height: 300px;
+      width: 400px;
+      border-radius: 10px;
     }
 }
   /* testimony section style */
@@ -233,8 +262,9 @@ nav{
     padding-right: 50px;
   }
   .subtitle{
-    margin: 0px;
-    color: rgb(37, 37, 37);
+    margin: 0;
+    font-size: 11px;
+    color: rgb(102, 102, 102);
     font-weight: lighter;
   }
   .testimony-heading{
