@@ -469,12 +469,24 @@ nav{
   display: flex;
   justify-content: space-between;
   padding-left: 50px;
+  gap: 100px;
   padding-right: 50px;
   margin-top: 70px;
   padding-bottom: 100px;
+  flex-wrap: wrap;
 }
 .contact-info-section img{
   height: 300px;
   width: 600px;
   border-radius: 30px;
+}
+
+@media all and (max-width: 480px){
+  .contact-info-section img{
+    height: 200px;
+    width: 400px;
+  }
+  .contact-info-section{
+    padding-left: 20px;
+  }
 }
