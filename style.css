@@ -128,10 +128,7 @@ nav{
   }
   .map{
     height: 400px;
-    width: 400px;
-  }
-  .location{
-    padding-left: 38px;
+    width: 420px;
   }
 
   }
@@ -265,6 +262,16 @@ nav{
     margin-bottom: 100px;
     
   }
+  @media all and (max-width: 480px){
+    .location{
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+    .location h1{
+      margin-bottom: 0;
+    }
+}
+
   .map{
     margin-top: 50px;
     border-radius: 20px;
