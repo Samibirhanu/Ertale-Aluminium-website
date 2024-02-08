@@ -257,8 +257,8 @@ nav{
       margin-bottom: 4px;
     }
     .service-image{
-      height: 300px;
-      width: 400px;
+      height: 280px;
+      width: 380px;
       border-radius: 10px;
     }
 }
@@ -324,10 +324,14 @@ nav{
     .location h1{
       margin-bottom: 0;
     }
+    .heading{
+      padding-left: 20px;
+    }
     .loc{
       margin-bottom: 0;
       padding-left: 20px;
     }
+    
 }
 
   .map{
