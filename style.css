@@ -106,7 +106,7 @@ nav{
     }
     .nav-links .nav-list{
       display: block;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid rgb(218, 218, 218);
       padding: 10px;
     }
     .logo{
