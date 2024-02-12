@@ -554,6 +554,9 @@ nav{
     height: 200px;
     width: 750px;
   }
+  .aboutUs-heroSection{
+    padding-left: 30px;
+  }
 
 }
 @media (min-width: 591px) and (max-width: 767px){
