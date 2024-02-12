@@ -38,7 +38,7 @@
         <!-- contact info section starts here-->
         <div class="contact-info-section">
             <div class="info-box">
-                <h1>Contact info.</h1>
+                <h1>Contact info</h1>
                 <div class="email">
                     <i class="fa-solid fa-envelope"></i>
                     <span>ertale16businessgroups@gmail.com</span>
@@ -57,12 +57,13 @@
                 </div>  
             </div>   
             <div class="form-container">
-                <form action="">
-                    <h3>Contact us</h3>
-                    <input type="text" id="name" placeholder="Your name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>
-                    <input type="text" id="phone" placeholder="Your No." required>
-                    <textarea  id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <h1>Contact us</h1>
+                    <input type="hidden" name="access_key" value="1fc8102a-9558-4bfa-af8f-4d0ec4881121">
+                    <input type="text" name="name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="phone"  placeholder="Your No." required>
+                    <textarea  name="message" rows="4" placeholder="How can we help you?"></textarea>
                     <button type="submit">Send</button>
                 </form>
             </div>
