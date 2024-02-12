@@ -26,6 +26,7 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(243, 240, 240);
+    font-size: 12px;
 }
 .top-section-text{
     font-size: 12px;
@@ -82,7 +83,30 @@ nav{
     margin-bottom: 4px;
     border-radius: 3px;
   }
-  @media all and (max-width: 480px) {
+
+  @media (min-width: 501px) and (max-width: 767px){
+    .top-section{
+      font-size: 11px;
+    }
+    .nav-links a{
+      font-size: 13px;
+    }
+    .nav-links{
+      gap: 30px;
+    }
+    .logo{
+      height: 50px;
+      width: 50px;
+    }
+    .front-image{
+      display: none;
+    }
+    .map{
+      height: 500px;
+      width: 450px;
+    }
+  }
+  @media all and (max-width: 500px) {
     .nav-links{
       flex-direction: column;
     }
@@ -137,6 +161,19 @@ nav{
   }
 
   }
+  @media all and (max-width: 410px) {
+    
+  .map{
+    height: 400px;
+    width: 350px;
+  }
+  .service-image{
+    height: 250px;
+    width: 280px;
+    border-radius: 10px;
+  }
+
+  }
 
   /* Style hero-section*/
   .container-hero-section{
@@ -178,7 +215,7 @@ nav{
     height: 442px;
     width: 403px;
   }
-  @media all and (max-width: 480px){
+  @media all and (max-width: 500px){
     .title{
       padding-left: 30px;
       padding-right: 30px;
@@ -209,13 +246,6 @@ nav{
   .service-section{
     padding-bottom: 100px;
   }
- .services2{
-    display: flex;
-    gap: 80px;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
- }
   .service-image{
     height: 250px;
     width: 300px;
@@ -252,8 +282,30 @@ nav{
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
+  .service-card-1:hover,
+  .service-card-2:hover,
+  .service-card-3:hover,
+  .service-card-4:hover,
+  .service-card-5:hover{
+    filter: brightness(80%);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 4px 7px, rgba(0, 0, 0, 0.23) 0px 4px 7px; 
+  }
+  @media (min-width: 481px) and (max-width: 767px){
+    .service-image{
+      height: 170px;
+      width: 210px;
+      border-radius: 10px;
+    }
+    .service-title{
+      font-size: 14px;
+    }
+    .services{
+      justify-content: center;
+      gap: 40px;
+    }
+  }
   
-  @media all and (max-width: 480px){
+  @media all and (max-width: 500px){
     .service-heading{
       padding-left: 20px;
       margin-top: 20px;
@@ -268,6 +320,18 @@ nav{
       border-radius: 10px;
     }
 }
+
+
+@media all and (max-width: 410px) {
+    
+  
+  .service-image{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  }
   /* testimony section style */
   .testimony-section{
     padding-left: 50px;
@@ -301,7 +365,7 @@ nav{
     font-style: italic;
     font-size: 22px;
   }
-  @media all and (max-width: 480px){
+  @media all and (max-width: 500px){
     .testimony-section{
       padding-left: 20px;
     }
@@ -320,9 +384,22 @@ nav{
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 100px;
-    
   }
-  @media all and (max-width: 480px){
+  .map{
+    height: 600px;
+    width: 1200px;
+    margin-top: 0px;
+    border-radius: 5px;
+  }
+  @media all and (max-width: 410px) {
+    
+    .map{
+      height: 400px;
+      width: 350px;
+      margin-top: 50px;
+    }
+    }
+  @media all and (max-width: 500px){
     .location{
       padding-left: 20px;
       margin-bottom: 0;
@@ -340,10 +417,24 @@ nav{
     
 }
 
-  .map{
-    margin-top: 50px;
-    border-radius: 20px;
+  
+  @media (min-width: 501px) and (max-width: 767px){
+    .map{
+      height: 500px;
+      width: 450px;
+    }
+    
   }
+  @media all and (max-width: 500px) {
+  
+  .map{
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+  }
+
+  }
+
 
   /* footer section style */
 
@@ -408,8 +499,10 @@ nav{
   }
 .footer-heading{
   color: #7F00FF;
+  font-size: 20px;
+  font-weight: 500;
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .copyright{
     font-size: 10px;
     padding-left: 10px;
@@ -418,6 +511,15 @@ nav{
     padding-left: 20px;
   }
 }
+@media all and (max-width: 410px) {
+    .info-box{
+      font-size: 13px;
+    }
+    .copyright{
+      font-size: 9px;
+    }
+
+  }
 /* about us page style*/
 .aboutUs-heroSection{
   padding-left: 50px;
@@ -429,10 +531,10 @@ nav{
   border-radius: 8px;
 }
 
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .about-us-image{
     height: 130px;
-    width: 440px;
+    width: 420px;
   }
   .aboutUs-heroSection{
     padding-left: 15px;
@@ -449,6 +551,12 @@ nav{
     align-self: center;
   }
 
+}
+@media all and (max-width: 410px){
+  .about-us-image{
+    height: 100px;
+    width: 360px;
+  }
 }
 
 /* about us main section*/
@@ -512,8 +620,11 @@ nav{
 .maintenace img{
   height: 400px;
   width: 600px;
+  border: 1px solid rgb(207, 207, 207);
   border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
 .maintenace{
   display: flex;
   justify-content: space-around;
@@ -530,7 +641,7 @@ nav{
   width: 300px;
   align-self: ;
 }
-@media all and (max-width: 480px) {
+@media all and (max-width: 500px) {
   .maintenace img{
     height: 200px;
     width: 400px;
@@ -555,7 +666,7 @@ nav{
   border-radius: 30px;
 }
 
-@media all and (max-width: 480px){
+@media all and (max-width: 500px){
   .contact-info-section img{
     height: 200px;
     width: 400px;
