@@ -183,7 +183,8 @@ nav{
     flex-wrap: wrap;
     justify-content: space-around;
   }
-  h1{
+  h1,
+  h3{
     color: #7F00FF;
   }
   .title{
